@@ -6,7 +6,7 @@ const {
 async function setupTicketPanel(interaction) {
   const embed = new EmbedBuilder()
     .setTitle('🎫 Ticket Midle Man')
-    .setDescription('Clique sur le bouton ci-dessous pour ouvrir un ticket.')
+    .setDescription('<@&1495754740930187304> <@' + user.id + '>\nVeuillez nous donner :\n- Votre pseudo\n- La personne avec qui vous faites le trade\n- Le jeu\n- Ce que vous tradez')
     .setColor(0x5865F2);
 
   const row = new ActionRowBuilder().addComponents(
