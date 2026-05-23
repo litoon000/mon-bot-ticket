@@ -25,3 +25,5 @@ client.once('ready', () => {
 });
 
 client.login(process.env.TOKEN);
+const http = require('http');
+http.createServer((req, res) => res.end('Bot en ligne!')).listen(3000);
